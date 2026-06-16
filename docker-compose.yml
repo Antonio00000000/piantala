@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./Backend
+    container_name: piantala-backend
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+
+  frontend:
+    build: ./React
+    container_name: piantala-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
