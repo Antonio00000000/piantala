@@ -1,0 +1,49 @@
+# ====================================================================
+# DIPENDENZE E CONFIGURAZIONI LOCALI (Obbligatorio per esame)
+# ====================================================================
+# Esclude node_modules da qualsiasi sottocartella (sia frontend che backend)
+**/node_modules/
+# Esclude i file di lock locali generati dai gestori di pacchetti
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# ====================================================================
+# SICUREZZA E CHIAVI PRIVATE (Mai caricare su GitHub o condividere!)
+# ====================================================================
+# Esclude le credenziali del DB e la GEMINI_API_KEY presenti nei file .env
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# ====================================================================
+# LOG DI SISTEMA ED ERRORI
+# ====================================================================
+# Evita di tracciare i file di log generati in caso di crash o debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ====================================================================
+# CARTELLE DI COMPILAZIONE (BUILD / FRONTEND)
+# ====================================================================
+# Esclude le cartelle temporanee di build generate da Vite o React
+**/dist/
+**/build/
+**/.out/
+
+# ====================================================================
+# CONFIGURAZIONI DEGLI IDE (WebStorm / VS Code)
+# ====================================================================
+# Esclude le preferenze personali del tuo editor di codice
+**/.idea/
+**/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

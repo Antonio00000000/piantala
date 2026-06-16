@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+/*mi importo il font da google*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;/*uso il font importato*/
+}
+.intestazione{
+    margin: 15vh 0 15vh 0 ;
+}
+
+h1 {
+    font-size: 15vh;
+    margin: 10vh;
+    color: #C67647;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 5vh;
+    margin: 5vh;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+=======
+/*mi importo il font da google*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;/*uso il font importato*/
+}
+.intestazione{
+    margin: 15vh 0 15vh 0 ;
+}
+
+h1 {
+    font-size: 15vh;
+    margin: 10vh;
+    color: #C67647;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 5vh;
+    margin: 5vh;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+>>>>>>> 6af84f2084c9ab94edfefa9c680c19e73fd52ec0
+}

@@ -1,0 +1,9 @@
+body {
+  background-color: #ffffff !important; /* Forza lo sfondo bianco */
+  color: #213547;                       /* Imposta un colore del testo scuro per renderlo leggibile */
+}
+
+#root {
+  background-color: #ffffff !important; /* Assicura che anche il contenitore principale di React sia bianco */
+  min-height: 100vh;                    /* Copre tutta l'altezza dello schermo */
+}

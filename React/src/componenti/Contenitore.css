@@ -1,0 +1,52 @@
+<<<<<<< HEAD
+.scheda-pianta {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1200px;      
+}
+
+/* Titolo della categoria */
+.scheda-pianta h1 {
+    font-size: 3rem;        
+    color: #2b5c16;             
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.vetrina-carte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;        
+    justify-content: center;
+    gap: 25px;              
+    width: 100%;
+=======
+.scheda-pianta {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1200px;      
+}
+
+/* Titolo della categoria */
+.scheda-pianta h1 {
+    font-size: 3rem;        
+    color: #2b5c16;             
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.vetrina-carte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;        
+    justify-content: center;
+    gap: 25px;              
+    width: 100%;
+>>>>>>> 6af84f2084c9ab94edfefa9c680c19e73fd52ec0
+}
